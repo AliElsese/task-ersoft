@@ -40,43 +40,6 @@ body {
   color: #fff;
 }
 
-@media (min-width: 992px) {
-  #sideNav {
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
-    top: 0;
-    left: 0;
-    display: flex;
-    padding-top: 6rem;
-    flex-direction: column;
-    width: 15rem;
-    height: 100vh;
-  }
-
-  #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
-  }
-
-  #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
-  }
-
-  section {
-    margin-left: 16rem;
-  }  
-}
-
 h1, h2, h3 {
   font-family: "Saira Extra Condensed";
   font-weight: 700;
@@ -172,10 +135,38 @@ p.lead {
 }
 
 @media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  #sideNav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding-top: 6rem;
+    flex-direction: column;
+    width: 15rem;
+    height: 100vh;
   }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  section {
+    margin-left: 16rem;
+  }  
 }
