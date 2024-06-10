@@ -1,0 +1,181 @@
+body {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6c757d;
+  box-sizing: border-box;
+}
+
+#sideNav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #bd5d38;
+}
+
+#sideNav .navbar-brand {
+  font-size: 1.25rem;
+}
+
+#sideNav .navbar-brand .img-profile {
+  width: 8rem;
+  height: 8rem;
+  border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.navbar-nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.navbar-nav .show > .nav-link,
+.navbar-nav .nav-link.active {
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    padding-top: 6rem;
+    flex-direction: column;
+    width: 15rem;
+    height: 100vh;
+  }
+
+  #sideNav .navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  section {
+    margin-left: 16rem;
+  }  
+}
+
+h1, h2, h3 {
+  font-family: "Saira Extra Condensed";
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.field {
+  color: rgba(189, 93, 56, 1);
+}
+
+.about .social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.about .social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.skills .dev-icons {
+  font-size: 3rem;
+  padding-left: 0;
+}
+
+.skills ul.skills-workflow {
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 1rem;
+  padding-left: 0;
+}
+
+.skills ul.skills-workflow li {
+  position: relative;
+}
+
+.awards ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-left: 2.5rem;
+  padding-left: 0;
+}
+
+.awards ul li {
+  position: relative;
+}
+
+.awards ul li span {
+  left: calc(2rem* -1);
+  position: absolute;
+  text-align: center;
+  width: 2rem;
+  line-height: inherit;
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
